@@ -8,7 +8,7 @@ local vars =  {
 	hitmarker = ui.new_checkbox("VISUALS", "Player ESP", "World Hitmarker"),
 	hitmarker_clr = ui.new_color_picker("VISUALS", "Player ESP", "Hitmarker Color", 255, 255, 255, 255),
 	hitmarker_size = ui.new_slider("VISUALS", "Player ESP", "World Hitmarker Size", 10, 20),
-    hitmarker_type = ui.new_combobox("VISUALS", "Player ESP", "Animation", {"Fade out", "Sector out"}),
+	hitmarker_type = ui.new_combobox("VISUALS", "Player ESP", "Animation", {"Fade out", "Sector out"}),
 }
 
 local function DistTo(x1,y1,z1,x2,y2,z2)
