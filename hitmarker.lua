@@ -4,8 +4,7 @@ local SetEventCallback = client.set_event_callback
 local impact_info = {}
 local hitmarker_info = {}
 
-local vars = 
-{
+local vars =  {
 	hitmarker = ui.new_checkbox("VISUALS", "Player ESP", "World Hitmarker"),
 	hitmarker_clr = ui.new_color_picker("VISUALS", "Player ESP", "Hitmarker Color", 255, 255, 255, 255),
 	hitmarker_size = ui.new_slider("VISUALS", "Player ESP", "World Hitmarker Size", 10, 20),
